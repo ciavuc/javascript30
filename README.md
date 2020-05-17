@@ -7,3 +7,6 @@
 Netlify: [Ciavuc.co - JS30 - 01 - Drumkit](https://amazing-kare-d58ebf.netlify.app/)
 
 A drumkit that takes a key input, uses the data-key attribute to play an associated sound with that key. 
+
+#### Findings
+For me, selecting all keys, then looping through each with `keys.forEach(key => key.addEventListener('transitionend', removeTransition));` on every single keydown seemed less efficient than just setting a timeout to remove the animation once finished, so I left that part out.

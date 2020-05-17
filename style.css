@@ -31,7 +31,7 @@ body {
 
 .key.playing {
     border-color: #005eff;
-    transform: scale(1.1);
+    /*transform: scale(1.1);*/
 }
 
 kbd {

@@ -7,13 +7,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
 .kit {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .key {
